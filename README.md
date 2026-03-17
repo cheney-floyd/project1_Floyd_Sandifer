@@ -1,12 +1,40 @@
-# project1_Floyd_Sandifer
+# Project 1: Predicting Loan Defaults
+**DSC 340**  
+Rylee Sandifer and Cheney Floyd
 
-Libraries needed to run:
-1. pandas
-2. scikit learn
-   - train_test_split
-   - LogisticRegression
-   - classification_report
-   - confusion_matrix
-   - StandardScaler
+---
 
-In order to run the model, ensure the kaggle dataset is in the "data" folder. Next, ensure all necessary libraries have been installed. Then, simply open the Jupyter Notebook and run all cells.
+## Required Libraries
+
+```bash
+pip install pandas numpy scikit-learn
+```
+
+---
+
+## Data Setup
+
+1. Download the data from the Home Credit Default Risk competition on Kaggle: https://www.kaggle.com/c/home-credit-default-risk.
+2. Create a `data/` folder inside the project folder and place these four files inside it:
+
+```
+data/
+├── application_train.csv
+├── credit_card_balance.csv
+├── previous_application.csv
+└── installments_payments.csv
+```
+
+---
+
+## How to Run
+
+- Open `dsc340_project1_Floyd_Sandifer.ipynb` and select **Kernel → Restart & Run All**.
+
+---
+
+## Acknowledgements
+
+- Data provided by Home Credit via Kaggle: https://www.kaggle.com/c/home-credit-default-risk
+- Office hours with Dr. Allen.
+- scikit-learn documentation: https://scikit-learn.org
